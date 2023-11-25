@@ -1,27 +1,24 @@
-This is the handout directory for the 15-213 Cache Lab.
-
 ************************
-Running the autograders:
+Running the testers:
 ************************
 
-Before running the autograders, compile your code:
+Before running the testers, compile your code:
     linux> make
 
 Check the correctness of your simulator:
     linux> ./test-csim
 
-Check the correctness and performance of your transpose functions:
+Check the correctness and performance of the transpose functions:
     linux> ./test-trans -M 32 -N 32
     linux> ./test-trans -M 1024 -N 1024
 
-Check everything at once (this is the program that Autolab runs):
+Check everything at once:
     linux> ./driver.py
 
 ******
 Files:
 ******
 
-# You will handing in these two files
 csim.c                  Your cache simulator [You must create this file]
 trans.c                 Your transpose function(s) [Starter version included]
 
